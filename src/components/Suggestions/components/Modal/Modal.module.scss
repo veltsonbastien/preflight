@@ -1,0 +1,82 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+
+  .modal-content {
+    background: white;
+    padding: 56px;
+    border-radius: 8px;
+    position: relative;
+    max-width: 80%;
+    width: 100%;
+    height: 80%;
+    overflow-y: scroll;
+
+    .suggestion-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      .title {
+        font-size: 24px;
+        font-weight: bold;
+        color: #2083bf;
+      }
+
+      .suggestion {
+        font-size: 24px;
+      }
+    }
+
+    .recommendation-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-top: 8%;
+
+      .title {
+        font-size: 24px;
+        font-weight: bold;
+        color: #2083bf;
+      }
+
+      .loading {
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 30px;
+        text-align: center;
+      }
+
+      .recommendation {
+        line-height: 30px;
+        font-size: 22px;
+
+        & > * {
+          text-wrap: wrap;
+        }
+      }
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 10px;
+      right: 16px;
+      background: none;
+      border: none;
+      font-size: 32px;
+      cursor: pointer;
+
+      &::after {
+        content: "×";
+      }
+    }
+  }
+}
