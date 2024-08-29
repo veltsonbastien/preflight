@@ -12,7 +12,7 @@ Get a PR before the PR with PreFlight. It's quick and easy to setup, and uses Gr
 5. Run the magic command to get a local version running (you likely already know this): 
 ```bash
   npm run dev
-5. ```
+```
 
 
 ### Next Steps
