@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## PreFlight: Code Checks before you submit a PR
 
 Get a PR before the PR with PreFlight. It's quick and easy to setup, and uses Greptile to run checks on code. 
