@@ -29,6 +29,10 @@ Once your repo is connected, you will get a list of suggestions that PreFlight h
 - Sign in with GitHub
 - Better suggestion triaging (some issues aren't extremely important and won't really get changed- I'd want to add in a feature that allows a user to ignore a suggestion, or get past it)
 
+### AI Tools Used During Dev
+- GitHub Copilot (to help with things like coming up with box shadows, or other small things that I don't have memorized)
+- ChatGPT (it's basically my replacement for Google, so any small questions I had about state issues I was having or anything of the sort were asked there)
+- No part of the code was done exclusively with AI, everything was done by a human (myself)
 
 
 ### FAQ
