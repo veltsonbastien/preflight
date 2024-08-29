@@ -1,6 +1,6 @@
 ## PreFlight: Code Checks before you submit a PR
 
-Get a PR before the PR with PreFlight. It's quick and easy to setup, and uses Greptile to run checks on your code, and provide you with suggestions to improve it! 
+#### Get a PR before the PR with PreFlight. It's quick and easy to setup, and uses Greptile to run checks on your code, and provide you with suggestions to improve it! 
 
 ### First Steps: 
 1. Obtain a GitHub PAT token from your GitHub account.
